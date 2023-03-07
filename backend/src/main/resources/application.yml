@@ -1,0 +1,19 @@
+
+server:
+  port: 80
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://txvps.yeahchen.cn/dev
+    username: dev
+    password: beTrYTEwaiW8ji23
+  main:
+    banner-mode: console
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    banner: false
+
